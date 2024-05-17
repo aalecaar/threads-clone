@@ -24,6 +24,7 @@
 		0EC492252BF6C187007F8998 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC492242BF6C187007F8998 /* CircularProfileImageView.swift */; };
 		0EC492282BF6C2CD007F8998 /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC492272BF6C2CD007F8998 /* UserCellView.swift */; };
 		0EC4922B2BF6DBDF007F8998 /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4922A2BF6DBDF007F8998 /* ProfileThreadFilter.swift */; };
+		0EC4922F2BF6F934007F8998 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4922E2BF6F934007F8998 /* EditProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		0EC492242BF6C187007F8998 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		0EC492272BF6C2CD007F8998 /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
 		0EC4922A2BF6DBDF007F8998 /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
+		0EC4922E2BF6F934007F8998 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +261,7 @@
 		0EA4C5AE2BF69AA90084563E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				0EC4922C2BF6F921007F8998 /* EditProfile */,
 				0EC492292BF6DBC3007F8998 /* Models */,
 				0EA4C5AF2BF69AAD0084563E /* Views */,
 			);
@@ -288,6 +291,22 @@
 				0EC4922A2BF6DBDF007F8998 /* ProfileThreadFilter.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0EC4922C2BF6F921007F8998 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				0EC4922D2BF6F926007F8998 /* Views */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		0EC4922D2BF6F926007F8998 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0EC4922E2BF6F934007F8998 /* EditProfileView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +381,7 @@
 			files = (
 				0EA4C5AB2BF69A850084563E /* CreateThreadView.swift in Sources */,
 				0EA4C5B12BF69ACE0084563E /* ExploreView.swift in Sources */,
+				0EC4922F2BF6F934007F8998 /* EditProfileView.swift in Sources */,
 				0EA4C5A52BF699E90084563E /* FeedView.swift in Sources */,
 				0EC492282BF6C2CD007F8998 /* UserCellView.swift in Sources */,
 				0EA4C5B32BF69AF70084563E /* ActivityView.swift in Sources */,

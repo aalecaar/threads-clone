@@ -24,3 +24,4 @@ enum ProfileThreadFilter: Int, CaseIterable, Identifiable {
         self.rawValue
     }
 }
+
