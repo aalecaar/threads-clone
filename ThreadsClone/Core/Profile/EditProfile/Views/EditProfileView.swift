@@ -87,9 +87,7 @@ struct EditProfileView: View {
                     .fontWeight(.semibold)
                     .foregroundStyle(.black)
                 }
-                
             }
-            
         }
     }
 }
